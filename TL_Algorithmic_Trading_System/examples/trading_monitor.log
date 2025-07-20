@@ -1,0 +1,44 @@
+2025-07-20 09:29:36,741 - INFO - 🚀 Sürekli Pair Monitörü başlatılıyor - EURUSD=X
+2025-07-20 09:29:36,741 - INFO - 📊 Güncelleme aralığı: 180 saniye
+2025-07-20 09:29:36,741 - INFO - 🎯 Karar eşiği: 0.5
+2025-07-20 09:29:36,741 - INFO - Registered pair: EURUSD=X (Euro/US Dollar)
+2025-07-20 09:29:36,741 - INFO - Registered pair: GBPUSD=X (British Pound/US Dollar)
+2025-07-20 09:29:36,741 - INFO - Registered pair: USDJPY=X (US Dollar/Japanese Yen)
+2025-07-20 09:29:36,742 - INFO - Registered pair: BTC-USD (Bitcoin/US Dollar)
+2025-07-20 09:29:36,742 - INFO - Registered pair: ETH-USD (Ethereum/US Dollar)
+2025-07-20 09:29:36,742 - INFO - Registered pair: SPY (S&P 500 ETF)
+2025-07-20 09:29:36,742 - INFO - Registered pair: QQQ (NASDAQ ETF)
+2025-07-20 09:29:36,742 - INFO - Registered pair: GC=F (Gold Futures)
+2025-07-20 09:29:36,742 - INFO - Registered pair: CL=F (Crude Oil Futures)
+2025-07-20 09:29:36,764 - INFO - Activated pair: EURUSD=X
+2025-07-20 09:29:36,764 - INFO - ✅ EURUSD=X pair'i aktif edildi
+2025-07-20 09:29:36,764 - INFO - ✅ Sistem başlatma tamamlandı!
+2025-07-20 09:29:36,764 - INFO - 🚀 EURUSD=X için sürekli izleme başladı!
+2025-07-20 09:29:36,764 - INFO - ⏱️ Süre: 30 dakika
+2025-07-20 09:29:36,764 - INFO - 🏁 Bitiş zamanı: 09:59:36
+2025-07-20 09:29:36,764 - INFO - 
+🔄 Analiz döngüsü başlıyor - 09:29:36
+2025-07-20 09:29:38,932 - ERROR - Error collecting yfinance data for EURUSD=X: Too Many Requests. Rate limited. Try after a while.
+2025-07-20 09:29:39,988 - ERROR - Error collecting yfinance data for EURUSD=X: Too Many Requests. Rate limited. Try after a while.
+2025-07-20 09:29:40,126 - INFO - 📁 Analiz sonuçları kaydedildi: /Users/macbookpro/Desktop/MAKALE/temporal_intelligence/TL_Algorithmic_Trading_System/data/trading_analysis_EURUSD_X_20250720.json
+2025-07-20 09:29:40,126 - INFO - ⏰ 180 saniye bekleniyor...
+2025-07-20 09:32:40,127 - INFO - 
+🔄 Analiz döngüsü başlıyor - 09:32:40
+2025-07-20 09:32:40,189 - INFO - 📁 Analiz sonuçları kaydedildi: /Users/macbookpro/Desktop/MAKALE/temporal_intelligence/TL_Algorithmic_Trading_System/data/trading_analysis_EURUSD_X_20250720.json
+2025-07-20 09:32:40,189 - INFO - ⏰ 180 saniye bekleniyor...
+2025-07-20 09:35:40,189 - INFO - 
+🔄 Analiz döngüsü başlıyor - 09:35:40
+2025-07-20 09:35:40,301 - INFO - 📁 Analiz sonuçları kaydedildi: /Users/macbookpro/Desktop/MAKALE/temporal_intelligence/TL_Algorithmic_Trading_System/data/trading_analysis_EURUSD_X_20250720.json
+2025-07-20 09:35:40,301 - INFO - ⏰ 180 saniye bekleniyor...
+2025-07-20 09:38:40,301 - INFO - 
+🔄 Analiz döngüsü başlıyor - 09:38:40
+2025-07-20 09:38:40,364 - INFO - 📁 Analiz sonuçları kaydedildi: /Users/macbookpro/Desktop/MAKALE/temporal_intelligence/TL_Algorithmic_Trading_System/data/trading_analysis_EURUSD_X_20250720.json
+2025-07-20 09:38:40,364 - INFO - ⏰ 180 saniye bekleniyor...
+2025-07-20 09:41:40,365 - INFO - 
+🔄 Analiz döngüsü başlıyor - 09:41:40
+2025-07-20 09:41:40,431 - INFO - 📁 Analiz sonuçları kaydedildi: /Users/macbookpro/Desktop/MAKALE/temporal_intelligence/TL_Algorithmic_Trading_System/data/trading_analysis_EURUSD_X_20250720.json
+2025-07-20 09:41:40,431 - INFO - ⏰ 180 saniye bekleniyor...
+2025-07-20 09:44:40,412 - INFO - 
+🔄 Analiz döngüsü başlıyor - 09:44:40
+2025-07-20 09:44:40,480 - INFO - 📁 Analiz sonuçları kaydedildi: /Users/macbookpro/Desktop/MAKALE/temporal_intelligence/TL_Algorithmic_Trading_System/data/trading_analysis_EURUSD_X_20250720.json
+2025-07-20 09:44:40,480 - INFO - ⏰ 180 saniye bekleniyor...

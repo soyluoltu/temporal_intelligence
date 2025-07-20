@@ -1,0 +1,339 @@
+# Trading Pairs Configuration
+# ===========================
+
+supported_pairs:
+  forex:
+    majors:
+      - symbol: "EURUSD=X"
+        base_asset: "EUR"
+        quote_asset: "USD"
+        description: "Euro/US Dollar"
+        min_tick: 0.00001
+        lot_size: 100000
+        margin_requirement: 0.02
+      - symbol: "GBPUSD=X"
+        base_asset: "GBP"
+        quote_asset: "USD"
+        description: "British Pound/US Dollar"
+        min_tick: 0.00001
+        lot_size: 100000
+        margin_requirement: 0.02
+      - symbol: "USDJPY=X"
+        base_asset: "USD"
+        quote_asset: "JPY"
+        description: "US Dollar/Japanese Yen"
+        min_tick: 0.001
+        lot_size: 100000
+        margin_requirement: 0.02
+      - symbol: "USDCHF=X"
+        base_asset: "USD"
+        quote_asset: "CHF"
+        description: "US Dollar/Swiss Franc"
+        min_tick: 0.00001
+        lot_size: 100000
+        margin_requirement: 0.02
+      - symbol: "AUDUSD=X"
+        base_asset: "AUD"
+        quote_asset: "USD"
+        description: "Australian Dollar/US Dollar"
+        min_tick: 0.00001
+        lot_size: 100000
+        margin_requirement: 0.02
+      - symbol: "USDCAD=X"
+        base_asset: "USD"
+        quote_asset: "CAD"
+        description: "US Dollar/Canadian Dollar"
+        min_tick: 0.00001
+        lot_size: 100000
+        margin_requirement: 0.02
+      - symbol: "NZDUSD=X"
+        base_asset: "NZD"
+        quote_asset: "USD"
+        description: "New Zealand Dollar/US Dollar"
+        min_tick: 0.00001
+        lot_size: 100000
+        margin_requirement: 0.02
+
+    minors:
+      - symbol: "EURGBP=X"
+        base_asset: "EUR"
+        quote_asset: "GBP"
+        description: "Euro/British Pound"
+        min_tick: 0.00001
+        lot_size: 100000
+        margin_requirement: 0.02
+      - symbol: "EURJPY=X"
+        base_asset: "EUR"
+        quote_asset: "JPY"
+        description: "Euro/Japanese Yen"
+        min_tick: 0.001
+        lot_size: 100000
+        margin_requirement: 0.02
+      - symbol: "GBPJPY=X"
+        base_asset: "GBP"
+        quote_asset: "JPY"
+        description: "British Pound/Japanese Yen"
+        min_tick: 0.001
+        lot_size: 100000
+        margin_requirement: 0.02
+      - symbol: "CHFJPY=X"
+        base_asset: "CHF"
+        quote_asset: "JPY"
+        description: "Swiss Franc/Japanese Yen"
+        min_tick: 0.001
+        lot_size: 100000
+        margin_requirement: 0.02
+
+  crypto:
+    majors:
+      - symbol: "BTC-USD"
+        base_asset: "BTC"
+        quote_asset: "USD"
+        description: "Bitcoin/US Dollar"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.1
+      - symbol: "ETH-USD"
+        base_asset: "ETH"
+        quote_asset: "USD"
+        description: "Ethereum/US Dollar"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.1
+      - symbol: "BNB-USD"
+        base_asset: "BNB"
+        quote_asset: "USD"
+        description: "Binance Coin/US Dollar"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.1
+      - symbol: "ADA-USD"
+        base_asset: "ADA"
+        quote_asset: "USD"
+        description: "Cardano/US Dollar"
+        min_tick: 0.0001
+        lot_size: 1
+        margin_requirement: 0.1
+      - symbol: "SOL-USD"
+        base_asset: "SOL"
+        quote_asset: "USD"
+        description: "Solana/US Dollar"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.1
+      - symbol: "DOT-USD"
+        base_asset: "DOT"
+        quote_asset: "USD"
+        description: "Polkadot/US Dollar"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.1
+      - symbol: "AVAX-USD"
+        base_asset: "AVAX"
+        quote_asset: "USD"
+        description: "Avalanche/US Dollar"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.1
+
+    alts:
+      - symbol: "LTC-USD"
+        base_asset: "LTC"
+        quote_asset: "USD"
+        description: "Litecoin/US Dollar"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.15
+      - symbol: "XRP-USD"
+        base_asset: "XRP"
+        quote_asset: "USD"
+        description: "Ripple/US Dollar"
+        min_tick: 0.0001
+        lot_size: 1
+        margin_requirement: 0.15
+      - symbol: "LINK-USD"
+        base_asset: "LINK"
+        quote_asset: "USD"
+        description: "Chainlink/US Dollar"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.15
+      - symbol: "UNI-USD"
+        base_asset: "UNI"
+        quote_asset: "USD"
+        description: "Uniswap/US Dollar"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.15
+      - symbol: "MATIC-USD"
+        base_asset: "MATIC"
+        quote_asset: "USD"
+        description: "Polygon/US Dollar"
+        min_tick: 0.0001
+        lot_size: 1
+        margin_requirement: 0.15
+
+  stocks:
+    indices:
+      - symbol: "SPY"
+        base_asset: "SPY"
+        quote_asset: "USD"
+        description: "S&P 500 ETF"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.25
+      - symbol: "QQQ"
+        base_asset: "QQQ"
+        quote_asset: "USD"
+        description: "NASDAQ-100 ETF"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.25
+      - symbol: "IWM"
+        base_asset: "IWM"
+        quote_asset: "USD"
+        description: "Russell 2000 ETF"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.25
+      - symbol: "DIA"
+        base_asset: "DIA"
+        quote_asset: "USD"
+        description: "Dow Jones ETF"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.25
+
+    sectors:
+      - symbol: "XLF"
+        base_asset: "XLF"
+        quote_asset: "USD"
+        description: "Financial Select Sector SPDR"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.25
+      - symbol: "XLK"
+        base_asset: "XLK"
+        quote_asset: "USD"
+        description: "Technology Select Sector SPDR"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.25
+      - symbol: "XLE"
+        base_asset: "XLE"
+        quote_asset: "USD"
+        description: "Energy Select Sector SPDR"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.25
+      - symbol: "XLU"
+        base_asset: "XLU"
+        quote_asset: "USD"
+        description: "Utilities Select Sector SPDR"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.25
+      - symbol: "XLI"
+        base_asset: "XLI"
+        quote_asset: "USD"
+        description: "Industrial Select Sector SPDR"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.25
+      - symbol: "XLY"
+        base_asset: "XLY"
+        quote_asset: "USD"
+        description: "Consumer Discretionary SPDR"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.25
+      - symbol: "XLV"
+        base_asset: "XLV"
+        quote_asset: "USD"
+        description: "Health Care Select Sector SPDR"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.25
+      - symbol: "XLB"
+        base_asset: "XLB"
+        quote_asset: "USD"
+        description: "Materials Select Sector SPDR"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.25
+      - symbol: "XLRE"
+        base_asset: "XLRE"
+        quote_asset: "USD"
+        description: "Real Estate Select Sector SPDR"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.25
+
+    commodities:
+      - symbol: "GLD"
+        base_asset: "GLD"
+        quote_asset: "USD"
+        description: "SPDR Gold Shares"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.25
+      - symbol: "TLT"
+        base_asset: "TLT"
+        quote_asset: "USD"
+        description: "20+ Year Treasury Bond ETF"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.25
+      - symbol: "USO"
+        base_asset: "USO"
+        quote_asset: "USD"
+        description: "United States Oil Fund"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.25
+      - symbol: "SLV"
+        base_asset: "SLV"
+        quote_asset: "USD"
+        description: "iShares Silver Trust"
+        min_tick: 0.01
+        lot_size: 1
+        margin_requirement: 0.25
+
+# Prediction timeframes
+prediction_timeframes:
+  very_short_term: "1h"
+  short_term: "4h"
+  medium_term: "1d"
+  long_term: "1w"
+  very_long_term: "1M"
+
+# Trading sessions
+trading_sessions:
+  forex:
+    sydney: "21:00-06:00 UTC"
+    tokyo: "00:00-09:00 UTC"
+    london: "07:00-16:00 UTC"
+    new_york: "12:00-21:00 UTC"
+  
+  stocks:
+    pre_market: "09:00-14:30 UTC"
+    regular: "14:30-21:00 UTC"
+    after_hours: "21:00-01:00 UTC"
+  
+  crypto:
+    always_open: "24/7"
+
+# Risk management defaults
+risk_management:
+  max_risk_per_trade: 0.02  # 2% of account
+  max_correlation_exposure: 0.6  # Max 60% in correlated assets
+  volatility_adjustment: true
+  dynamic_position_sizing: true
+
+# Data quality thresholds
+data_quality:
+  min_quality_score: 0.7
+  max_missing_data_ratio: 0.1
+  min_volume_threshold: 1000  # Minimum daily volume
+  outlier_detection: true
+  gap_detection_threshold: 0.05  # 5% price gap

@@ -1,0 +1,314 @@
+# Multi-Strategy Configuration
+# ===========================
+
+# Strategy weights for signal aggregation
+strategy_weights:
+  technical_analysis: 0.30
+  fundamental_analysis: 0.25
+  sentiment_analysis: 0.20
+  correlation_analysis: 0.15
+  volatility_analysis: 0.10
+  momentum_analysis: 0.15
+  mean_reversion: 0.10
+  regime_analysis: 0.05
+
+# Technical analysis configuration
+technical_indicators:
+  trend_indicators:
+    - name: "SMA_20"
+      period: 20
+      weight: 1.0
+    - name: "SMA_50"
+      period: 50
+      weight: 1.2
+    - name: "EMA_12"
+      period: 12
+      weight: 0.8
+    - name: "EMA_26"
+      period: 26
+      weight: 0.8
+    - name: "MACD"
+      fast_period: 12
+      slow_period: 26
+      signal_period: 9
+      weight: 1.5
+    - name: "ADX"
+      period: 14
+      weight: 1.0
+
+  momentum_indicators:
+    - name: "RSI_14"
+      period: 14
+      overbought: 70
+      oversold: 30
+      weight: 1.3
+    - name: "Stochastic"
+      k_period: 14
+      d_period: 3
+      overbought: 80
+      oversold: 20
+      weight: 1.0
+    - name: "Williams_R"
+      period: 14
+      weight: 0.8
+    - name: "CCI"
+      period: 20
+      weight: 0.9
+
+  volatility_indicators:
+    - name: "Bollinger_Bands"
+      period: 20
+      std_dev: 2.0
+      weight: 1.4
+    - name: "ATR"
+      period: 14
+      weight: 1.0
+    - name: "Keltner_Channels"
+      period: 20
+      multiplier: 2.0
+      weight: 0.9
+
+  volume_indicators:
+    - name: "OBV"
+      weight: 1.0
+    - name: "VWAP"
+      weight: 1.2
+    - name: "Chaikin_MFI"
+      period: 20
+      weight: 0.8
+    - name: "Volume_SMA"
+      period: 20
+      weight: 0.9
+
+# Momentum analysis configuration
+momentum_analysis:
+  rate_of_change_periods: [5, 10, 20]
+  roc_weights: [0.5, 0.3, 0.2]
+  volume_confirmation_threshold: 1.2
+  momentum_smoothing_period: 3
+  
+  strength_thresholds:
+    very_strong: 0.05
+    strong: 0.03
+    moderate: 0.02
+    weak: 0.01
+
+# Volatility analysis configuration
+volatility_analysis:
+  volatility_periods: [10, 20, 30]
+  volatility_models: ["historical", "ewma", "garch"]
+  model_weights:
+    historical: 0.4
+    ewma: 0.4
+    garch: 0.2
+  
+  regime_thresholds:
+    low_vol: 0.7
+    high_vol: 1.5
+  
+  breakout_probability_threshold: 0.6
+
+# Correlation analysis configuration
+correlation_analysis:
+  correlation_periods: [30, 60, 120]  # days
+  correlation_thresholds:
+    high_positive: 0.7
+    moderate_positive: 0.4
+    low: 0.3
+    moderate_negative: -0.4
+    high_negative: -0.7
+  
+  rolling_window: 60
+  min_observations: 30
+  
+  diversification_targets:
+    max_correlation: 0.6
+    min_pairs_for_diversification: 3
+
+# Sentiment analysis configuration
+sentiment_analysis:
+  news_sources:
+    - "reuters"
+    - "bloomberg"
+    - "marketwatch"
+    - "cnbc"
+    - "financial_times"
+  
+  social_sources:
+    - "twitter"
+    - "reddit"
+    - "stocktwits"
+    - "tradingview"
+  
+  sentiment_weights:
+    news: 0.6
+    social: 0.4
+  
+  sentiment_thresholds:
+    very_bullish: 0.8
+    bullish: 0.6
+    neutral_high: 0.55
+    neutral_low: 0.45
+    bearish: 0.4
+    very_bearish: 0.2
+  
+  sentiment_decay_factor: 0.9  # Daily decay
+  min_sentiment_samples: 5
+
+# Fundamental analysis configuration
+fundamental_analysis:
+  economic_indicators:
+    forex:
+      - "gdp_growth"
+      - "inflation_rate"
+      - "interest_rates"
+      - "unemployment_rate"
+      - "trade_balance"
+      - "consumer_confidence"
+      - "manufacturing_pmi"
+      - "services_pmi"
+    
+    stocks:
+      - "pe_ratio"
+      - "peg_ratio"
+      - "price_to_book"
+      - "debt_to_equity"
+      - "return_on_equity"
+      - "revenue_growth"
+      - "earnings_growth"
+      - "dividend_yield"
+    
+    crypto:
+      - "network_activity"
+      - "developer_activity"
+      - "adoption_metrics"
+      - "regulatory_environment"
+      - "institutional_adoption"
+      - "hash_rate"
+      - "active_addresses"
+
+  fundamental_weights:
+    economic_strength: 0.3
+    monetary_policy: 0.25
+    fiscal_policy: 0.2
+    political_stability: 0.15
+    market_structure: 0.1
+
+# Confidence thresholds
+confidence_thresholds:
+  very_high_confidence: 0.85
+  high_confidence: 0.70
+  medium_confidence: 0.55
+  low_confidence: 0.40
+  very_low_confidence: 0.25
+
+# Signal strength mapping
+signal_strength:
+  very_strong: 5
+  strong: 4
+  moderate: 3
+  weak: 2
+  very_weak: 1
+
+# Timeframe analysis weights
+timeframe_weights:
+  "1h": 0.05
+  "4h": 0.15
+  "1d": 0.35
+  "1w": 0.30
+  "1M": 0.15
+
+# Risk assessment parameters
+risk_assessment:
+  volatility_risk_multiplier: 2.0
+  correlation_risk_threshold: 0.8
+  liquidity_risk_threshold: 0.1
+  news_impact_multiplier: 1.5
+  
+  risk_factors:
+    - "high_volatility"
+    - "low_liquidity"
+    - "high_correlation"
+    - "news_events"
+    - "economic_releases"
+    - "earnings_announcements"
+    - "central_bank_meetings"
+
+# Strategy optimization parameters
+optimization:
+  lookback_period: 252  # trading days
+  rebalancing_frequency: "weekly"
+  performance_metrics:
+    - "sharpe_ratio"
+    - "information_ratio"
+    - "max_drawdown"
+    - "win_rate"
+    - "profit_factor"
+  
+  optimization_method: "bayesian"
+  max_iterations: 100
+  convergence_threshold: 0.001
+
+# Temporal intelligence integration
+temporal_intelligence:
+  enabled: true
+  weight_in_final_decision: 0.25
+  
+  temporal_features:
+    - "attention_patterns"
+    - "hebbian_connections"
+    - "memory_consolidation"
+    - "emergent_behavior"
+    - "pattern_novelty"
+  
+  constraint_modes:
+    conservative:
+      validation_threshold: 0.8
+      novelty_threshold: 0.6
+      consolidation_threshold: 0.8
+    
+    moderate:
+      validation_threshold: 0.6
+      novelty_threshold: 0.5
+      consolidation_threshold: 0.6
+    
+    aggressive:
+      validation_threshold: 0.4
+      novelty_threshold: 0.4
+      consolidation_threshold: 0.4
+
+# Real-time monitoring
+real_time_monitoring:
+  update_frequencies:
+    price_data: "1min"
+    news_sentiment: "5min"
+    technical_indicators: "1min"
+    strategy_signals: "5min"
+    risk_metrics: "15min"
+  
+  alert_thresholds:
+    significant_move: 0.02  # 2% price change
+    volume_spike: 2.0       # 2x average volume
+    volatility_spike: 1.5   # 1.5x average volatility
+    sentiment_shift: 0.3    # 30 point sentiment change
+
+# Performance tracking
+performance_tracking:
+  metrics_calculation_frequency: "daily"
+  benchmark_comparison: true
+  
+  key_metrics:
+    - "total_return"
+    - "volatility"
+    - "sharpe_ratio"
+    - "maximum_drawdown"
+    - "win_rate"
+    - "average_win_loss_ratio"
+    - "profit_factor"
+    - "calmar_ratio"
+  
+  attribution_analysis:
+    - "strategy_contribution"
+    - "timeframe_contribution"
+    - "pair_contribution"
+    - "temporal_intelligence_contribution"

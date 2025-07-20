@@ -1,0 +1,317 @@
+[
+  {
+    "timestamp": "2025-07-20T08:52:56.377662",
+    "symbol": "EURUSD=X",
+    "market_state": {
+      "timestamp": "2025-07-20 08:52:53.879821",
+      "price": 99.92276132049291,
+      "volatility": 0.2623002945315462,
+      "trend": "SIDEWAYS",
+      "momentum": 0.042550981241510355,
+      "volume_profile": "LOW",
+      "temporal_confidence": 0.48961424827575684,
+      "emergent_patterns": []
+    },
+    "trading_decision": {
+      "timestamp": "2025-07-20 08:52:56.377662",
+      "symbol": "EURUSD=X",
+      "action": "HOLD",
+      "confidence": 0.4934775585397649,
+      "price": 99.92276132049291,
+      "reasoning": [
+        "Güçlü pozitif momentum (0.043)",
+        "Düşük güven seviyesi (0.493) - BEKLE"
+      ],
+      "risk_level": "MEDIUM",
+      "position_size": 0.0,
+      "stop_loss": null,
+      "take_profit": null,
+      "temporal_signals": {
+        "confidence": 0.48961424827575684,
+        "emergent_count": 0,
+        "risk_factors": [
+          "volatility_risk",
+          "pattern_instability",
+          "prediction_uncertainty"
+        ]
+      },
+      "strategy_breakdown": {
+        "technical": 0.6948268656295875,
+        "momentum": 0.3,
+        "volatility": 0.3
+      }
+    },
+    "portfolio_value": 10000.0,
+    "current_position": 0.0
+  },
+  {
+    "timestamp": "2025-07-20T09:29:40.125387",
+    "symbol": "EURUSD=X",
+    "market_state": {
+      "timestamp": "2025-07-20 09:29:38.945346",
+      "price": 99.92276132049291,
+      "volatility": 0.2623002945315462,
+      "trend": "SIDEWAYS",
+      "momentum": 0.042550981241510355,
+      "volume_profile": "LOW",
+      "temporal_confidence": 0.4916131794452667,
+      "emergent_patterns": []
+    },
+    "trading_decision": {
+      "timestamp": "2025-07-20 09:29:40.125387",
+      "symbol": "EURUSD=X",
+      "action": "HOLD",
+      "confidence": 0.49424741544305295,
+      "price": 99.92276132049291,
+      "reasoning": [
+        "Güçlü pozitif momentum (0.043)",
+        "Düşük güven seviyesi (0.494) - BEKLE"
+      ],
+      "risk_level": "MEDIUM",
+      "position_size": 0.0,
+      "stop_loss": null,
+      "take_profit": null,
+      "temporal_signals": {
+        "confidence": 0.4916131794452667,
+        "emergent_count": 0,
+        "risk_factors": [
+          "volatility_risk",
+          "pattern_instability",
+          "prediction_uncertainty"
+        ]
+      },
+      "strategy_breakdown": {
+        "technical": 0.6948268656295875,
+        "momentum": 0.3,
+        "volatility": 0.3
+      }
+    },
+    "portfolio_value": 10000.0,
+    "current_position": 0.0
+  },
+  {
+    "timestamp": "2025-07-20T09:32:40.186425",
+    "symbol": "EURUSD=X",
+    "market_state": {
+      "timestamp": "2025-07-20 09:32:40.132435",
+      "price": 99.92276132049291,
+      "volatility": 0.2623002945315462,
+      "trend": "SIDEWAYS",
+      "momentum": 0.042550981241510355,
+      "volume_profile": "LOW",
+      "temporal_confidence": 0.4495432674884796,
+      "emergent_patterns": []
+    },
+    "trading_decision": {
+      "timestamp": "2025-07-20 09:32:40.186425",
+      "symbol": "EURUSD=X",
+      "action": "HOLD",
+      "confidence": 0.47087499046967113,
+      "price": 99.92276132049291,
+      "reasoning": [
+        "Güçlü pozitif momentum (0.043)",
+        "Düşük güven seviyesi (0.471) - BEKLE"
+      ],
+      "risk_level": "MEDIUM",
+      "position_size": 0.0,
+      "stop_loss": null,
+      "take_profit": null,
+      "temporal_signals": {
+        "confidence": 0.4495432674884796,
+        "emergent_count": 0,
+        "risk_factors": [
+          "volatility_risk",
+          "pattern_instability",
+          "prediction_uncertainty"
+        ]
+      },
+      "strategy_breakdown": {
+        "technical": 0.6948268656295875,
+        "momentum": 0.3,
+        "volatility": 0.3
+      }
+    },
+    "portfolio_value": 10000.0,
+    "current_position": 0.0
+  },
+  {
+    "timestamp": "2025-07-20T09:35:40.298292",
+    "symbol": "EURUSD=X",
+    "market_state": {
+      "timestamp": "2025-07-20 09:35:40.194507",
+      "price": 99.92276132049291,
+      "volatility": 0.2623002945315462,
+      "trend": "SIDEWAYS",
+      "momentum": 0.042550981241510355,
+      "volume_profile": "LOW",
+      "temporal_confidence": 0.44952112436294556,
+      "emergent_patterns": []
+    },
+    "trading_decision": {
+      "timestamp": "2025-07-20 09:35:40.298292",
+      "symbol": "EURUSD=X",
+      "action": "HOLD",
+      "confidence": 0.47086424838813484,
+      "price": 99.92276132049291,
+      "reasoning": [
+        "Güçlü pozitif momentum (0.043)",
+        "Düşük güven seviyesi (0.471) - BEKLE"
+      ],
+      "risk_level": "MEDIUM",
+      "position_size": 0.0,
+      "stop_loss": null,
+      "take_profit": null,
+      "temporal_signals": {
+        "confidence": 0.44952112436294556,
+        "emergent_count": 0,
+        "risk_factors": [
+          "volatility_risk",
+          "pattern_instability",
+          "prediction_uncertainty"
+        ]
+      },
+      "strategy_breakdown": {
+        "technical": 0.6948268656295875,
+        "momentum": 0.3,
+        "volatility": 0.3
+      }
+    },
+    "portfolio_value": 10000.0,
+    "current_position": 0.0
+  },
+  {
+    "timestamp": "2025-07-20T09:38:40.362987",
+    "symbol": "EURUSD=X",
+    "market_state": {
+      "timestamp": "2025-07-20 09:38:40.304707",
+      "price": 99.92276132049291,
+      "volatility": 0.2623002945315462,
+      "trend": "SIDEWAYS",
+      "momentum": 0.042550981241510355,
+      "volume_profile": "LOW",
+      "temporal_confidence": 0.449519544839859,
+      "emergent_patterns": []
+    },
+    "trading_decision": {
+      "timestamp": "2025-07-20 09:38:40.362987",
+      "symbol": "EURUSD=X",
+      "action": "HOLD",
+      "confidence": 0.47086351657555187,
+      "price": 99.92276132049291,
+      "reasoning": [
+        "Güçlü pozitif momentum (0.043)",
+        "Düşük güven seviyesi (0.471) - BEKLE"
+      ],
+      "risk_level": "MEDIUM",
+      "position_size": 0.0,
+      "stop_loss": null,
+      "take_profit": null,
+      "temporal_signals": {
+        "confidence": 0.449519544839859,
+        "emergent_count": 0,
+        "risk_factors": [
+          "volatility_risk",
+          "pattern_instability",
+          "prediction_uncertainty"
+        ]
+      },
+      "strategy_breakdown": {
+        "technical": 0.6948268656295875,
+        "momentum": 0.3,
+        "volatility": 0.3
+      }
+    },
+    "portfolio_value": 10000.0,
+    "current_position": 0.0
+  },
+  {
+    "timestamp": "2025-07-20T09:41:40.429693",
+    "symbol": "EURUSD=X",
+    "market_state": {
+      "timestamp": "2025-07-20 09:41:40.369171",
+      "price": 99.92276132049291,
+      "volatility": 0.2623002945315462,
+      "trend": "SIDEWAYS",
+      "momentum": 0.042550981241510355,
+      "volume_profile": "LOW",
+      "temporal_confidence": 0.44950662553310394,
+      "emergent_patterns": []
+    },
+    "trading_decision": {
+      "timestamp": "2025-07-20 09:41:40.429693",
+      "symbol": "EURUSD=X",
+      "action": "HOLD",
+      "confidence": 0.47085582260932207,
+      "price": 99.92276132049291,
+      "reasoning": [
+        "Güçlü pozitif momentum (0.043)",
+        "Düşük güven seviyesi (0.471) - BEKLE"
+      ],
+      "risk_level": "MEDIUM",
+      "position_size": 0.0,
+      "stop_loss": null,
+      "take_profit": null,
+      "temporal_signals": {
+        "confidence": 0.44950662553310394,
+        "emergent_count": 0,
+        "risk_factors": [
+          "volatility_risk",
+          "pattern_instability",
+          "prediction_uncertainty"
+        ]
+      },
+      "strategy_breakdown": {
+        "technical": 0.6948268656295875,
+        "momentum": 0.3,
+        "volatility": 0.3
+      }
+    },
+    "portfolio_value": 10000.0,
+    "current_position": 0.0
+  },
+  {
+    "timestamp": "2025-07-20T09:44:40.477634",
+    "symbol": "EURUSD=X",
+    "market_state": {
+      "timestamp": "2025-07-20 09:44:40.416563",
+      "price": 99.92276132049291,
+      "volatility": 0.2623002945315462,
+      "trend": "SIDEWAYS",
+      "momentum": 0.042550981241510355,
+      "volume_profile": "LOW",
+      "temporal_confidence": 0.4495120048522949,
+      "emergent_patterns": []
+    },
+    "trading_decision": {
+      "timestamp": "2025-07-20 09:44:40.477634",
+      "symbol": "EURUSD=X",
+      "action": "HOLD",
+      "confidence": 0.47086188407055873,
+      "price": 99.92276132049291,
+      "reasoning": [
+        "Güçlü pozitif momentum (0.043)",
+        "Düşük güven seviyesi (0.471) - BEKLE"
+      ],
+      "risk_level": "MEDIUM",
+      "position_size": 0.0,
+      "stop_loss": null,
+      "take_profit": null,
+      "temporal_signals": {
+        "confidence": 0.4495120048522949,
+        "emergent_count": 0,
+        "risk_factors": [
+          "volatility_risk",
+          "pattern_instability",
+          "prediction_uncertainty"
+        ]
+      },
+      "strategy_breakdown": {
+        "technical": 0.6948268656295875,
+        "momentum": 0.3,
+        "volatility": 0.3
+      }
+    },
+    "portfolio_value": 10000.0,
+    "current_position": 0.0
+  }
+]
